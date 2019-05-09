@@ -1,0 +1,99 @@
+
+body{
+	margin: 0;
+
+}
+
+
+.nav{
+	height: 65px;
+	width: 100%;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+.left-container{
+	
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.left-container img{
+	width: 40px;
+}
+
+.left-container h5{
+	font-size: 30px;
+	margin: 5px;
+}
+
+
+.right-container{
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+.content{
+	display: flex;
+
+}
+
+aside{
+	border: 2px solid black;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+aside img{
+	width: 300px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+aside p{
+	font-size: 30px;
+	text-align: center;
+	font-family: "Acme", "Comic Sans MS";
+}
+
+
+
+section{
+	border: 5px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*flex-direction: row-reverse;*/
+	
+}
+
+
+section img{
+	height: 200px;
+	border-radius: 10px;
+
+}
+
+
+
+section:nth-child(2){
+	flex-direction: row-reverse;
+}
+
+
+
+
+
+
+
